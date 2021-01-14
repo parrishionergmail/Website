@@ -1,0 +1,14 @@
+kind: service
+version: effx/v1
+spec:
+  name: Website
+  annotations:
+    effx.io/owned-by: Malvina
+  description: ''
+  contact:
+    email: dave@malvina.com
+  linkGroups:
+    - label: Dashboards
+      links:
+        - label: Malvina website
+          url: 'https://www.malvina.com'
