@@ -4,7 +4,7 @@ spec:
   name: Website
   annotations:
     effx.io/owned-by: Malvina
-  description: ''
+  description: 'This is our website'
   contact:
     email: dave@malvina.com
   linkGroups:
