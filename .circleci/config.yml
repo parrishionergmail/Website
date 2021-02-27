@@ -12,7 +12,7 @@ jobs:
     docker:
       - image: 'circleci/node:10'
     steps:
-      . run: echo "hello"
+      - run: echo "hello"
 workflows:
   # Name the workflow "welcome"
   welcome:
