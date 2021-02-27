@@ -13,9 +13,4 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-  # Name the workflow "build"
-  build:
-    jobs:
-      - build:
-        post-steps:
-          - jira/notify
+      - jira/notify
