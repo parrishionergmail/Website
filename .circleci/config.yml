@@ -13,4 +13,8 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+  # Name the workflow "jira"
+  jira:
+    # Run the jira/notify job in its own container
+    jobs:
       - jira/notify
