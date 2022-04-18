@@ -1,5 +1,5 @@
 kind: service
-version: effx/v1
+version: effx/v2
 spec:
   name: Website
   annotations:
