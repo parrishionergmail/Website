@@ -1,5 +1,5 @@
-kind: service
-version: effx/v2
+kind: microservice
+version: effx/v3
 spec:
   name: Website
   annotations:
