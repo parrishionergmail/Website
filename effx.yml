@@ -12,3 +12,5 @@ spec:
       links:
         - label: Malvina website
           url: 'https://www.malvina.com'
+        - label: Example website
+          url: 'https://www.example.com'
