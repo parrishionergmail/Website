@@ -7,21 +7,18 @@ file_blobs:
   swagger.yaml: 178b4db856123ce97ac4951e5af8198281751e72
 ---
 
-This is an example API spec following OpenAPI v3.1.1.
+This is an example API spec following OpenAPI v3.1.0.
 
 <br/>
 
-Note that we are referencing `openapi` version `3.1.1`
+Note that we are referencing `openapi` version `3.1.0`
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 swagger.yaml
 ```yaml
 🟩 1      openapi: 3.1.1
-🟩 2      info:
-🟩 3        title: Webhook Example
-🟩 4        version: 1.0.0
-⬜ 5      # Since OAS 3.1.0 the paths element isn't necessary. Now a valid OpenAPI Document can describe only paths, webhooks, or even only reusable components
-⬜ 6      webhooks:
-⬜ 7        # Each webhook needs a name
+⬜ 2      info:
+⬜ 3        title: Webhook Example
+⬜ 4        version: 1.0.0
 ```
 
 <br/>
