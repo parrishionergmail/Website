@@ -2,23 +2,37 @@
 id: l0q63
 name: Explaining effx.yaml
 file_version: 1.0.2
-app_version: 0.8.1-0
+app_version: 0.9.8-2
 file_blobs:
-  effx.yml: 8f416808be50fb84dd9274f61fa26f9c46e45cf1
+  effx.yml: 1952bddcf8df73992b0afd501d038104c9b76bb5
 ---
 
 This is the config-as-code file for Effx.
 
 <br/>
 
+
+
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 effx.yml
 ```yaml
-🟩 1      kind: service
-🟩 2      version: effx/v1
-⬜ 3      spec:
-⬜ 4        name: Website
-⬜ 5        annotations:
+🟩 1      kind: microservice
+🟩 2      version: effx/v3
+🟩 3      spec:
+🟩 4        name: Website
+🟩 5        annotations:
+🟩 6          effx.io/owned-by: Malvina
+🟩 7        description: 'This is our new website'
+🟩 8        contact:
+🟩 9          email: dave@malvina.com
+🟩 10       linkGroups:
+🟩 11         - label: Dashboards
+🟩 12           links:
+🟩 13             - label: Malvina website
+🟩 14               url: 'https://www.malvina.com'
+🟩 15             - label: Example website
+🟩 16               url: 'https://www.example.com'
+⬜ 17     
 ```
 
 <br/>
