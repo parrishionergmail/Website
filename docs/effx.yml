@@ -4,7 +4,7 @@ spec:
   name: Docs
   annotations:
     effx.io/owned-by: Malvina
-  description: 'This is our documentation'
+  description: 'This is our documentation thingie'
   contact:
     email: dave@malvina.com
   linkGroups:
