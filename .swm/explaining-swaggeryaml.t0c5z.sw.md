@@ -4,7 +4,7 @@ name: Explaining swagger.yaml
 file_version: 1.0.2
 app_version: 0.8.1-0
 file_blobs:
-  swagger.yaml: 178b4db856123ce97ac4951e5af8198281751e72
+  swagger.yaml: bc9a2f621ad1ed3fa1eeed26bb94cfb518b8c517
 ---
 
 This is an example API spec following OpenAPI v3.1.0.
@@ -15,10 +15,10 @@ Note that we are referencing `openapi` version `3.1.0`
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 swagger.yaml
 ```yaml
-🟩 1      openapi: 3.1.1
-⬜ 2      info:
-⬜ 3        title: Webhook Example
-⬜ 4        version: 1.0.0
+🟩 1      openapi: 3.1.0
+⬜ 2        description: Let's make some more radical changes here.
+⬜ 3      info:
+⬜ 4        title: Webhook Example
 ```
 
 <br/>
