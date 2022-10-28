@@ -1,11 +1,18 @@
+version: 2.1
 jobs:
   build:
     docker:
       - image: 'circleci/node:10'
     steps:
-      - run: echo "hello there"
+      - run: echo "Building..."
+      - run: echo "Done building."
+  deploy:
+    steps:
+      - run: echo "Deploying to production..."
+      - run: echo "Done deploying."
 orbs:
   jira: circleci/jira@1.3.1
+  compass: atlassian-labs/compass@0.1.2
 version: 2.1
 workflows:
   build:
@@ -13,11 +20,11 @@ workflows:
       - build:
           post-steps:
             - jira/notify
+  deploy:
+    jobs:
       - deploy:
           context:
             - compass-integration-parrishioner
-          steps:
-            - run: echo "deploying to production"
           post-steps:
             - compass/notify_deployment:
                 environment_type: production
