@@ -13,3 +13,11 @@ workflows:
       - build:
           post-steps:
             - jira/notify
+      - deploy:
+          context:
+            - compass-integration-parrishioner
+          steps:
+            - run: echo "deploying to production"
+          post-steps:
+            - compass/notify_deployment:
+                environment_type: production
