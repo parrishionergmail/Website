@@ -48,7 +48,7 @@ def Greg2JD(year, month, day):
 
     if (month < 3):
         y = float(year) - 1.0
-        m = float(month) + 12.0
+        m = float(month) + 12.00
     else:
         y = float(year)
         m = float(month)
