@@ -24,6 +24,24 @@ def main():
 
     kepid, invid, kepmag, mode, start, stop, release = GetMetaData(invid,quarter)
 
+"""
+This is an extended comment
+line
+line
+line
+line
+line
+line
+line
+line
+line
+line
+line
+line
+line
+line
+"""
+
 # convert Gregorian date to Julian date
 
 def Greg2JD(year, month, day):
