@@ -42,6 +42,9 @@ line
 line
 """
 
+def this(input):
+   return 0
+
 # convert Gregorian date to Julian date
 
 def Greg2JD(year, month, day):
