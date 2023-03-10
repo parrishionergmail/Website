@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# do this
+
 import getopt, sys, urllib, time
 
 def main():
